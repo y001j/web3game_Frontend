@@ -1,0 +1,23 @@
+/* LOGIN SECTION */
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-btn {
+    background: #21bf96;
+    color: #fff;
+    padding: 13px 35px;
+    font-size: 24px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.instruction {
+    text-align: center;
+    color: #21bf96;
+    color: #feba35;
+    margin: 1rem 0;
+}

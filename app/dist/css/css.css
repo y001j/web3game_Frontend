@@ -1,0 +1,504 @@
+.container{
+  margin:0 auto;width: 94%;
+}
+.container2{
+  margin:0 auto;width: 80%;
+}
+
+
+
+.share{
+  width: 94%;
+  left: 3%;
+  bottom: 20px;
+  text-align: right;
+  position: fixed;
+}
+.share a{
+  display: inline-block;
+  margin-left: 20px;
+}
+.share a img{
+  width: 30px;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+.head .logo{
+  width: auto;
+}
+
+.head .logo img{
+  display: block;width:auto;height: 35px;
+}
+.head .headR .lang{
+  display: inline-block;
+  float: left;
+}
+.head .headR .lang img{
+  height: 25px;
+}
+.head .headR .money{
+  display: inline-block;
+  float: left;margin-left: 10px;
+}
+.head .headR .money img{
+  height: 25px;
+}
+
+.menu li{
+  display:inline-block;
+  float: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.menu li a{
+  font-size: 20px;display: inline-block;
+  font-family: HarmonyOS_Sans; padding: 5px 15px;
+}
+.menu li.on a{
+  background: #dab96a;
+  border-radius: 35px;
+  color: #ffffff;
+ 
+}
+
+.chengtuo{
+  text-align: center;
+  margin-top: 100px;
+}
+.chengtuo  .img{
+  display: inline-block;
+  position: relative;
+}
+
+.chengtuo  .img  img.bg{
+  width: 600px;
+}
+.chengtuo  .img .enter{
+  position: absolute;
+  width: 200px;
+  top: 18%;left: 5%;
+  transform-origin: 50% 0;
+  animation: 2.5s baidong infinite linear;
+  animation-fill-mode: forwards;
+}
+.chengtuo  .img .enter img{
+  width: 100%;
+  display: block;
+}
+.chengtuo  .img .enter  .box{
+  position: relative;
+}
+.chengtuo  .img .enter  .box p{
+  position: absolute;
+  left: 7px;right: 7px;bottom: 23px;
+
+}
+.chengtuo  .img .enter  .box a{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 52%;
+  left: 5%;bottom: 35px;
+  font-size: 33px;
+  color: #dab96a;  font-family: myfont;
+}
+
+.chengtuo  .img .enter:hover{
+  animation-play-state:paused;
+}
+
+
+
+.chengtuo  .img .info{
+  position: absolute;
+  width: 200px;
+  top: 18%;right: 5%;
+
+}
+.chengtuo  .img .info img{
+  width: 100%;
+  display: block;
+}
+.chengtuo  .img .info  .box{
+  position: relative;
+}
+.chengtuo  .img .info  .box p{
+  position: absolute;
+  left: 7px;right: 7px;bottom: 23px;
+}
+.chengtuo  .img .info  .box a{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 52%;
+  left: 5%;bottom: 35px;
+  font-size: 33px;
+  color: #dab96a;  font-family: myfont;
+}
+
+
+
+
+
+
+
+
+@keyframes baidong{
+  0%{
+ 
+  }
+  33%{
+    transform:rotate(20deg);
+  }
+  66%{
+    transform:rotate(-20deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+
+
+}
+
+
+.daqu{
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.daqu img.bg{
+  width: 100%;
+  display: block;
+}
+.daqu .door{
+  position: absolute;
+  width: 80px;
+}
+.daqu .door img{
+  width: 100%;
+}
+.daqu .door .box{
+  position: relative;
+}
+.daqu .door .box .title{
+  position: absolute;
+  text-align: center;
+  left: 0;right: 0;
+  top: 50%;
+  transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+}
+
+.daqu .door .box .title h1{
+  font-size: 33px;
+  color: #ddb963;
+  font-weight: bold;
+}
+.daqu .door .box .title p{
+  font-size: 14px;
+  color: #ddb963;
+
+}
+.daqu .door .box  img.jpg{
+  display: block;
+}
+.daqu .door .box  img.gif{
+  display: none;
+}
+
+.daqu .door:hover img.jpg{
+  display: none;
+}
+.daqu .door:hover img.gif{
+  display: block;
+}
+
+.daqu .d1{
+  right: 18%;top: 5%;
+}
+
+
+.daqu .d2{
+  left: 6%;bottom: 14%;
+}
+
+
+.daqu .d3{
+  right: 6%;bottom: 14%;
+}
+
+.countdown{
+  float: left;
+  line-height: 66px;
+  margin-top: 100px;
+}
+.countdown span{
+  font-size: 22px;
+  margin-right: 10px;
+}
+.countdown i{
+  display: inline-block;
+  border: 1px dashed #8b8b8b;
+  width: 35px;
+  text-align: center;
+  line-height: 66px;font-size: 33px;
+}
+
+.flexs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.jflist li{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 0 15px;
+}
+.jflist li i{
+  display: inline-block;
+  width: 80px;
+}
+.jflist li i img{
+  width: 100%;
+  display: block;
+}
+.jflist li p{
+  font-size: 20px;
+}
+.jflist li p span{
+  font-size: 25px;
+}
+
+.total{
+  margin-top: 100px;
+  line-height: 40px;
+}
+.total span{
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  width: 80px;
+  text-align: justify;
+}
+.total li{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.total p{
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+  border: 1px dashed #8b8b8b;
+  padding: 0  15px;
+  margin-left: 10px;
+  width: 80px;color: #dab96a;
+  text-align: center;
+}
+
+.players{
+  text-align: center;
+  margin-top: 55px;
+}
+.players  .img{
+  display: inline-block;
+  position: relative;
+  width: 60%;
+}
+.players img{
+  width: 100%;
+}
+
+.players  .img2{
+  display: inline-block;
+  position: relative;
+  width: 40%;
+}
+.players img{
+  width: 100%;
+}
+
+
+
+
+
+.tit{
+  margin-top: 80px;
+  position: relative;
+}
+.tit img{
+  width: 100%;
+}
+.tit a{
+  display: inline-block;
+  width: 12%;
+  position: absolute;
+  left: 50%;top: 50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
+.tit a img{
+  width: 100%;
+}
+
+.game{
+  float: left;
+  position: relative;
+  z-index: 99;
+}
+
+.game li{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 0 15px;
+  -webkit-transition:all .9s;transition:all .9s
+}
+.game li.on{
+  margin-top: -20px;
+}
+
+
+.game li i{
+  display: inline-block;
+  width: 80px;
+}
+.game li i img{
+  width: 100%;
+  display: block;
+}
+.game li p{
+  font-size: 20px;
+}
+.game li p span{
+  font-size: 33px;
+}
+
+.start{
+  float: right;
+  margin-top: 35px;
+}
+.start img{
+  width: 55px;
+  margin-left: 15px;
+}
+
+
+.players .play1{
+  position: absolute;
+  left: 0;
+  width: 35%;
+  transform:translateX(-80%);
+  -webkit-transform:translateX(-80%);
+  top: 20%;
+}
+.players .play2{
+  position: absolute;
+  right:  0;
+  width: 35%;
+  transform:translateX(80%);
+  -webkit-transform:translateX(80%);
+  top: 20%;
+}
+
+.players .play3{
+  position: absolute;
+  right:  0;
+  width: 30%;
+  transform:translateX(80%);
+  -webkit-transform:translateX(80%);
+  top: 20%;
+}
+.players .victory{
+  position: absolute;
+  left: 0;
+  margin-left: -60%;
+  width: 25%; top: 30%;
+}
+.players .victory img{
+  width: 100%;
+}
+
+.players .play2 p{
+  text-align: center;line-height: 24px;
+  font-size: 33px;color: #dab96a;
+}
+.players .play2 i{
+  display: inline-block;
+  width: 25px;
+}
+.players .vs{
+  width: 30%;
+  position: absolute;
+  left: 50%;top: 50%;
+  transform:translate(-50%,-30%);
+  -webkit-transform:translate(-50%,-30%);
+
+}
+
+.players .record{
+  position: absolute;
+  right: 0;top: 30%;
+  margin-right: -50%;
+}
+.players .record i{
+  display: inline-block;
+  float: left;
+  width: 55px;
+}
+.players .record i img{
+  width: 100%;
+  display: block;
+}
+.players .record  p{
+  display: inline-block;
+  float: left;color: #a1a1a1;
+  line-height: 55px;
+}
+.players .record  p span{
+  font-size: 25px;
+}
+.players .record .card{
+  width: 85px;
+  height: 85px;
+  background: url(../images/carbg.jpg);
+  background-size: 100% 100%;
+
+}
+.players .record .card p{
+  width: 70%;
+  text-align: center;
+}
+
+.players .end{
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 66px;
+  border: 3px solid #e6212a;
+  color: #e6212a;font-size: 22px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+
+}

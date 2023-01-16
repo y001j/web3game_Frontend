@@ -113,9 +113,10 @@ window.onload = async (event) => {
   } else {
     alert("Please install MetaMask or any Ethereum Extension Wallet.");
   }
+  localStorage.getItem("userWalletAddress") ? window.playerWalletAddress = localStorage.getItem("userWalletAddress") : window.playerWalletAddress = null;
   if (window.playerWalletAddress!=null) {
-    alert(window.playerWalletAddress);
-    document.querySelector(".login-btn").innerHTML = "Connected " + window.playerWalletAddress.substring(0,6)+"...";
+    //alert(window.playerWalletAddress);
+    document.querySelector(".login-btn").innerHTML =  "🌐 Connected " + window.playerWalletAddress.substring(0,6)+ "…" + window.playerWalletAddress.substring(38);
   }
   //App.start();
 };
@@ -137,9 +138,10 @@ const loginWithEth = async () => {
           });
       // set the global userWalletAddress variable to selected account
       window.playerWalletAddress = Web3.utils.toChecksumAddress(selectedAccount);
+      //localStorage.setItem("playerWalletAddress", window.playerWalletAddress);
       console.log(selectedAccount);
       // store the user's wallet address in local storage
-      window.localStorage.setItem("userWalletAddress", selectedAccount);
+      window.localStorage.setItem("userWalletAddress",  window.playerWalletAddress );
       // show the user dashboard
       //showUserDashboard();
       //alert(window.playerWalletAddress);

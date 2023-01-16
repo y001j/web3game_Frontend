@@ -1,0 +1,190 @@
+
+@media screen and (max-width: 768px) {
+  .head{
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .head .logo{
+    width: 1.5rem;
+  }
+  .menu{
+    width: calc(100% - 4.5rem);
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu li{
+    margin: 0;
+  }
+  .headR{
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .head .headR .lang img{
+    height: auto;width: .3rem;display: block;
+  }
+  .head .headR .money{
+    margin-left: .1rem;
+  }
+  .head .headR .money img{
+    height: auto;width: 1rem;display: block;
+  }
+  .menu li a{
+    font-size: .25rem;
+    padding: .05rem .15rem;
+  }
+  .chengtuo  .img  img.bg{
+    width: 100%;
+  }
+
+.chengtuo  .img .enter{
+  width: 2rem;
+ 
+}
+
+
+.chengtuo  .img .enter  .box p{
+  position: absolute;
+  left: 7px;right: 7px;bottom: .2rem;
+}
+
+.chengtuo  .img .enter  .box a{
+  bottom: .3rem;
+  font-size: .3rem;
+
+}
+
+.chengtuo  .img .info{
+  width: 2rem;
+  top: 18%;right: 5%;
+
+}
+.chengtuo  .img .info  .box p{
+  bottom: .2rem;
+}
+.chengtuo  .img .info  .box a{
+  bottom: .3rem;
+  font-size: .3rem;
+
+}
+
+.daqu{
+
+  width: 100%;
+ 
+}
+.container2{
+  width: 96%;
+}
+.countdown{
+  line-height: .6rem;
+  margin-top: 1rem;
+}
+.countdown span{
+  font-size: .22rem;
+  margin-right: .1rem;
+}
+.countdown i{
+  width: .4rem;
+  line-height: .6rem;
+}
+
+.jflist li{
+
+  padding: 0 0rem;
+}
+.jflist li i{
+  display: inline-block;
+  width: .8rem;
+}
+
+.jflist li p span{
+  font-size: .3rem;
+}
+.total{
+  margin-top: 1rem;
+  line-height: .4rem;
+}
+.total span{
+  font-size: .2rem;
+  width: .6rem;
+}
+.total p{
+  font-size: .2rem;
+  padding: 0  .1rem;
+  margin-left: 10px;
+  width: .8rem;
+}
+.players{
+
+  margin-top: .5rem;
+}
+.tit{
+  margin-top: .8rem;
+
+}
+.game li{
+
+  padding: 0 .1rem;
+}
+.game li i{
+  width: .55rem;
+}
+.game li p span{
+  font-size: .25rem;
+}
+
+.start{
+  float: right;
+  margin-top: 35px;
+}
+.start img{
+  width: .4rem;
+  margin-left: .15rem;
+}
+
+.players .record{
+  margin-right: -70%;top: 0%;
+}
+
+.players .record i{
+
+  width: .55rem;
+}
+.players .record  p{
+  line-height: .55rem;
+}
+.players .record  p span{
+  font-size: .25rem;
+}
+
+.players .play2 p{
+  line-height: .24rem;
+  font-size: .3rem;
+}
+.players .play2 i{
+
+  width: .3rem;
+}
+.players .record .card{
+  width: .85rem;
+  height: .85rem;
+
+
+}
+
+
+.players .end{
+  width: .46rem;
+  height: .46rem;
+  font-size: .25rem;
+  line-height: .46rem;top: 0;
+
+}
+
+
+
+}
